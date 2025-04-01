@@ -21,7 +21,7 @@ Este é um projeto simples para calcular a regra de três direta usando HTML, CS
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/SeuUsuario/Regra-de-tres.git
+    git clone https://github.com/ViniLF/Regra-de-tres.git
     ```
 
 2. Navegue até o diretório do projeto:
