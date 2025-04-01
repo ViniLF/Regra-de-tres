@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: linear-gradient(135deg, #9870aa, rgba(238, 130, 238, 1));
+    backdrop-filter: blur(10px) brightness(1.2);
+}
+
+.calculator {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, rgba(114, 14, 158, 1), rgba(29, 17, 96, 1));
+    backdrop-filter: blur(10px) brightness(1.2);
+    width: 360px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    transition: box-shadow 0.3s ease;
+}
+
+.calculator:hover {
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.4);
+}
+
+.input-group span {
+    margin: 0 10px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.input-text {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+
+#result {
+    border: 2px solid #fff;
+    padding: 0.6rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px; 
+    min-width: 100px; 
+    max-width: 100px;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+input[type="number"] {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    width: 100px;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+input[type="number"]::placeholder {
+    color: #acacac;
+    font-size: 0.9rem;
+}
+
+button#calculate {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #af33e9, rgb(235, 50, 235));
+    backdrop-filter: blur(10px) brightness(1.2);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button#calculate:hover {
+    background: linear-gradient(135deg, #72179c, rgb(196, 15, 196));
+    transform: scale(1.05);
+}
